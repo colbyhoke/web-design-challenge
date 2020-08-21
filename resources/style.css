@@ -1,0 +1,71 @@
+/* Colby Alexander Hoke
+** UNC Data Analytics Bootcamp
+** August 2020
+*/
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    font-size: 30pt;
+    color: teal;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.test {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table{
+    width:100%;
+}
+
+/* Add border and margins to images to make them stand out on homepage */
+.smallimg {
+    width: 40%;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
+.bigimg {
+    width: 100%;
+    height: auto;
+}
+
+.selectedimg {
+    width: 40%;
+    border: 3px solid green;
+    margin: 5px;
+}
+
+.test {
+    border: 10px solid black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/*  navbar-expand-md = collapses below 768px 
+    Also change background color */
+@media screen and (max-width: 767px) {
+    body {
+        background-color: white;
+    }
+    
+    .imgtest {
+        border-bottom: 1px solid black;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+}
