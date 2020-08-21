@@ -46,7 +46,7 @@ table{
 /* Style the border for active state images */
 .selectedimg {
     width: 40%;
-    border: 3px solid green;
+    border: 3px solid teal;
     margin: 5px;
 }
 
