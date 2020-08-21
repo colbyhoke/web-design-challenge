@@ -3,28 +3,29 @@
 ** August 2020
 */
 
+/* Body styling */
 body {
     background-image: linear-gradient(to right, white, teal);
     background-color: ;
 }
 
+/* Header styling */
 h1 {
     font-size: 30pt;
     color: teal;
 }
 
+/* Header styling */
 h2 {
     font-size: 20pt;
 }
 
-.test {
-    background-color: white;
-}
-
+/* Style the table on the data page */
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+/* Expand the table on the data page */
 table{
     width:100%;
 }
@@ -36,32 +37,27 @@ table{
     margin: 5px;
   }
 
+/* Style the images on visualization pages */
 .bigimg {
     width: 100%;
     height: auto;
 }
 
+/* Style the border for active state images */
 .selectedimg {
     width: 40%;
     border: 3px solid green;
     margin: 5px;
 }
 
-.test {
-    border: 10px solid black;
-}
-
-.hidden {
-    visibility: hidden;
-}
-
+/* Style the footer */
 .page-footer {
     background-color: white;
     border-top: 2px solid teal;
 }
 
-/*  navbar-expand-md = collapses below 768px 
-    Also change background color */
+/*  This handles the smaller screen adaptive state.
+    navbar-expand-md = collapses below 768px  */
 @media screen and (max-width: 767px) {
     
     .bg-light {
@@ -73,10 +69,6 @@ table{
         background-color: white;
     }
     
-    .imgtest {
-        border-bottom: 1px solid black;
-    }
-
     .hidden {
         visibility: visible;
     }
