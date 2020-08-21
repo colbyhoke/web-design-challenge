@@ -55,6 +55,11 @@ table{
     visibility: hidden;
 }
 
+.page-footer {
+    background-color: white;
+    border-top: 2px solid teal;
+}
+
 /*  navbar-expand-md = collapses below 768px 
     Also change background color */
 @media screen and (max-width: 767px) {
