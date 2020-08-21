@@ -11,17 +11,12 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light bg-white">  
+    <nav class="navbar navbar-expand-md navbar-light bg-light"> 
+        <a class="navbar-brand" href="index.html"><img src="resources/0013.png" width="30" height="30" alt=""> Latitude Analysis Dashboard</a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- Navigation content on the left-->
-        <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Latitude Analysis Dashboard</a>
-                </li>
-            </ul> 
+        <div class="collapse navbar-collapse" id="navbarToggler"> 
             <!-- Navigation content on the right--> 
             <ul class="navbar-nav ml-auto">
                 <!-- Navigation content: Plot pages (drop down) -->
@@ -32,8 +27,6 @@
                       <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
                       <a class="dropdown-item active" href="cloudiness.html">Latitude vs. Cloudiness</a>
                       <a class="dropdown-item" href="wind.html">Latitude vs. Wind Speed</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
                 <!-- Navigation content: Comparisons page -->
@@ -58,7 +51,7 @@
                     <hr>
                     <img src="visualizations/cloudiness.png" width="100%" style="float:left">
                     <hr>
-                    <p>Words</p>
+                    <p>Cloudiness doesn't seem to be affected (or rather it's affected equally) by latitude. This graph shows a very even ditribution of cloud coverage across all latitudes where we've gathered data. Again, we have more data points in the northern hemisphere, but the overall distribution, on average, seems to be pretty equal between the two halves.</p>
                 </div>
             </div>
             <div class="col-md-4 col-md-offset-2">

@@ -4,7 +4,8 @@
 */
 
 body {
-    background-color: gray;
+    background-image: linear-gradient(to right, white, teal);
+    background-color: ;
 }
 
 h1 {
@@ -57,7 +58,13 @@ table{
 /*  navbar-expand-md = collapses below 768px 
     Also change background color */
 @media screen and (max-width: 767px) {
+    
+    .bg-light {
+        background-color: teal !important;
+        }
+
     body {
+        background-image: none;
         background-color: white;
     }
     
